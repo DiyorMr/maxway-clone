@@ -1,0 +1,73 @@
+.branches-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+.logo-title {
+  color: rgb(15, 14, 14);
+  font-family: Cera Pro;
+  font-size: 42px;
+  font-weight: 700;
+}
+.logo-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.logo-btn {
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  background: #51267d;
+  color: rgb(255, 255, 255);
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 2%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.logo-btn2 {
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  color: rgb(94, 79, 79);
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.card-adress {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  border-radius: 16px;
+  width: 580px;
+  height: 200px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.04);
+}
+.card-watch {
+  color: rgb(34, 219, 24);
+}
+.card-time {
+  padding-top: 15px;
+}
+.adress-info {
+  color: grey;
+}
+.card-number {
+  padding-top: 54px;
+  cursor: pointer;
+}
+.card-phone {
+  color: grey;
+}
