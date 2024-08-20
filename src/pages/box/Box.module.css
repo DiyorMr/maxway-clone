@@ -1,7 +1,9 @@
 .box {
   margin-top: 40px;
+  font-size:1.75rem;
+  font-weight: 600;
 }
-.boxs-card {
+.boxsCard {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -9,48 +11,46 @@
 }
 .boxs {
   width: 302px;
-  height: 370px;
   border: 1px solid rgb(211, 191, 191);
   border-radius: 14px;
   margin-top: 20px;
 }
-.card-info{
-  padding: 0 16px;
+.cardInfo {
+  padding: 16px;
 }
-.boxs-card .box-title {
+.boxTitle {
   color: rgb(5, 23, 37);
   font-size: 18px;
   font-weight: 500;
 }
-.boxs-card .box-text {
+.boxText {
   color: rgb(75, 80, 85);
   font-size: 14px;
   font-weight: 500;
-  width: 222px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
-.box-img {
+.boxImg {
   width: 300px;
   height: 200px;
   border-radius: 14px;
   margin-bottom: 6px;
 }
-.boxs-bottom {
+.boxsBottom {
   display: flex;
   align-items: center;
   gap: 40px;
 }
-.boxs-price {
+.boxsPrice {
   color: rgb(5, 23, 37);
   font-size: 18px;
   font-weight: 500;
   padding: 0px 10px;
   margin-bottom: 0;
 }
-.boxs-btn {
+.boxsBtn {
   width: 100px;
   height: 40px;
   border-radius: 10px;

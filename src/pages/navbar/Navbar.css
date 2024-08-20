@@ -39,7 +39,6 @@
 
 .cart-name {
   color: black;
-  font-family: Cera Pro;
   font-size: 36px;
   font-weight: 600;
   line-height: 24px;
@@ -48,7 +47,6 @@
 }
 .cart-price {
   color: #51267d;
-  font-family: Cera Pro;
   font-size: 28px;
   font-weight: 700;
   line-height: 24px;
@@ -103,7 +101,6 @@
 }
 .box-title {
   color: #51267d;
-  font-family: Cera Pro;
   font-size: 26px;
   font-weight: 600;
   line-height: 24px;
@@ -111,7 +108,6 @@
 }
 .box-text {
   color: black;
-  font-family: Cera Pro;
   font-size: 26px;
   font-weight: 700;
   line-height: 24px;
