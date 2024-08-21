@@ -1,18 +1,19 @@
 import React from 'react'
-import Lavash from '../lavash/Lavash'
-import Club from '../club/Club'
 import Box from '../box/Box'
-import News from '../news/News'
 import Header from '../header/Header'
+import { menuDataBaza } from './data'
 
 const Menu = () => {
     return (
         <>
             <Header />
-            <News />
+            {
+                menuDataBaza.map((item, index) => <Box item={item} key={index} />)
+            }
+            {/* <News />
             <Box />
             <Club />
-            <Lavash />
+            <Lavash /> */}
         </>
     )
 }

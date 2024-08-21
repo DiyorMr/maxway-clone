@@ -19,14 +19,13 @@ const Branches = () => {
           dataInfo.map((item, index) =>
             <div className="card-adress" key={index}>
               <div className="card-left">
-                <h3 className='adress-title'>{item.adress}</h3>
-                <p className='adress-text'>{item.street}</p>
-                <p className='card-time'><span className='adress-info'>{item.time}</span><br />{item.open}</p>
+                <h3 className='adress-title'>{item.name}</h3>
+                <p className='adress-text'>{item.adress.street},{item.adress.home_number}</p>
+                <p className='card-time'><span className='adress-info'>Schedule:</span><br />{item.open}</p>
               </div>
               <div className="card-right">
                 <p className='card-watch'>{item.week}</p>
-                <p className='card-number'><span className='card-phone'>{item.phone}</span><br />{item.number}</p>
-
+                <p className='card-number'><span className='card-phone'>Phone:</span><br />{item.number}</p>
               </div>
             </div>
           )

@@ -22,3 +22,6 @@ a {
   max-width: 1298px;
   margin: 10px auto;
 }
+.modal-header{
+  align-items: center !important;
+}

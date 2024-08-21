@@ -30,7 +30,6 @@ export default function Navbar() {
             <li><NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About</NavLink></li>
             <li><NavLink to="/contacts" className={({ isActive }) => isActive ? "active" : ""}>Contacts</NavLink></li>
           </ul>
-
         </div>
         <div className="navbar-info">
           <select className='select' name="cars">
@@ -43,7 +42,6 @@ export default function Navbar() {
           <img className='navbar-img' onClick={toggle2} src={user} />
         </div>
       </div>
-
       <Modal isOpen={modal} toggle={toggle} size='xl' >
         <ModalHeader toggle={toggle}>Cart</ModalHeader>
         <ModalBody>

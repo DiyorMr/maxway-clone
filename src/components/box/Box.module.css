@@ -1,0 +1,11 @@
+.box {
+  margin-top: 40px;
+  font-size:1.75rem;
+  font-weight: 600;
+}
+.boxsCard {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
